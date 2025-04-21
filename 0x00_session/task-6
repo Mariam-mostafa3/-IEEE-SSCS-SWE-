@@ -1,0 +1,8 @@
+error in compiler.c 
+touch task-6
+mariammostafa@Ubunto:~/IEEE_SSCS_SWE/0x00_session$ gcc task-6-compiler.c task-6
+/usr/bin/ld: /tmp/ccMYQLui.o: in function `main':
+task-6-compiler.c:(.text+0x33): undefined reference to `myfunction'
+collect2: error: ld returned 1 exit status
+
+
